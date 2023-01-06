@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+    .btn{
+        @apply bg-[#8A2BE2] text-white py-2 rounded inline-block mt-10 font-medium border border-[#8A2BE2] hover:bg-transparent hover:text-[#8A2BE2] transition duration-200
+    }
+
+    .inputStyle{
+        @apply outline-[#8A2BE2] border-gray-400 border rounded-[5px]
+ px-4 py-2 w-[100%]    }
+}
